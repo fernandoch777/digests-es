@@ -3,4 +3,4 @@ Digests extension for phpBB - Spanish localization
 
 Please check here for the main extension:
 
-https://www.phpbb.com/community/viewtopic.php?t=2354426
+https://www.phpbb.com/customise/db/extension/digests_extension/
