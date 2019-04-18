@@ -37,8 +37,8 @@ $lang = array_merge($lang, array(
 	'ACP_DIGESTS_RESET_CRON_RUN_TIME'						=> 'Restablecer correo',
 	'ACP_DIGESTS_RESET_CRON_RUN_TIME_EXPLAIN'				=> '',
 	'ACP_DIGESTS_TEST'										=> 'Ejecutar manualmente el correo',
-	'ACP_DIGESTS_TEST_EXPLAIN'								=> 'Esta función te permite ejecutar resúmenes manualmente para las pruebas iniciales y la resolución de problemas. También puedes usarlo para recrear resúmenes para una fecha y hora en particular. La zona horaria del foro se utiliza para calcular la fecha y la hora. Ten en cuenta que cuando se envían los resúmenes dependen del tráfico del foro, por lo que los resúmenes pueden llegar tarde para algunos usuarios. Esto se puede cambiar si configuras <a href="https://wiki.phpbb.com/Modular_cron#Use_system_cron"> un cron del sistema </a> y habilita la función phpBB <strong> cron del sistema </strong> . Para obtener más información, consulta las Preguntas frecuentes sobre la extensión Resúmenes en los foros en phpbb.com.',
-
+	'ACP_DIGESTS_TEST_EXPLAIN'								=> 'Esta función te permite ejecutar resúmenes manualmente para las pruebas iniciales y la resolución de problemas. También puedes usarlo para recrear resúmenes para una fecha y hora en particular. Solo una hora es ejecutada en este modo. La zona horaria del foro se utiliza para calcular la fecha y la hora. No se modifican datos de usuarios en este modo.',
+	
 	'LOG_CONFIG_DIGESTS_BAD_DIGEST_TYPE'					=> '<strong>Advertencia: el suscriptor %1$s tiene un tipo de resumen incorrecto de %2$s. Suponiendo que se quiere un resumen diario.</strong>',
 	'LOG_CONFIG_DIGESTS_BAD_SEND_HOUR'						=> '<strong>La hora de envío del resumen de %1$s del usuario no es válida. Es %2$d. El numero debe ser >= 0 and < 24.</strong>',
 	'LOG_CONFIG_DIGESTS_BALANCE_LOAD'						=> '<strong>Las cargas de balances de resúmenes se ejecutan exitosamente</strong>',
