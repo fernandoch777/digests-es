@@ -8,5 +8,3 @@ https://www.phpbb.com/customise/db/extension/digests_extension/
 These files should be added inside this folder
 
 /ext/phpbbservices/digests/language/es
-
-Something more in here
